@@ -1,0 +1,1 @@
+This project serves as an capstone endeavor undertaken to advance towards achieving my MIT Data Science certification. Employing Artificial Neural Networks (ANNs) and Convolutional Neural Networks (CNNs), it endeavors to discern emotions on images of faces.
