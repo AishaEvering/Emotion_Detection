@@ -2,9 +2,9 @@
    <img src="https://github.com/AishaEvering/FacialEmotionDetection/blob/main/emotion.png" alt="Emotion Detection">
 </p>
 
-# Face Verification (YouTube Tutorial) :youtube
+# Emotion Detection
 
-This is the result of an 8 part YouTube series of using Deep Learning with TensorFlow to authenicate your face much like on IPhone.  *Pretty Cool.*
+This project serves as an capstone endeavor undertaken to advance towards achieving my MIT Applied Data Science certification.
 
 ## Technologies
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
@@ -17,36 +17,34 @@ This is the result of an 8 part YouTube series of using Deep Learning with Tenso
 
 ## 📃Description
 
-This is a TensorFlow neural network model that performs computer vision to authenticate an image.
+A multi-class classification model that attempts to detect sad/happy/suprised/nuetral emotions on different faces.
 
 ## 🏫 What Did I Learn
 
-* How to use Tensor flow decoraters.
-* How to create a custom training step using TensorFlow.
+* Retraining models used for transfer learning led to a lot better results.  I was getting great results from VGG16 doing that but due to time and contraints I removed the experiment.  But I will keep that little bit of knowledge here.
+* Transfer learning did not guarantee automatic awesome accuracies.
+* Grayscale vs RGB did not make a huge difference.
+* There's not a lot of EDA with the data for the CNN models but augementing and flipping the images yielded better accuracies.
 
 ## 🔑 Key Takeaways
 
-This is my first experience with following a research paper's neural network archetecture.  Some of the cool takeways I got from it where
-* One Shot: The model must correctly make predictionss given only a single example.  The model was trained on hundreds of images of my face (positive) and randomn faces (negative). Then the model was given a single single (one-shot) image and validated it against a validation image.  Depending on the verfiication threshold which in the case was 70% the model verified that if the person in the image was the same person if the given image.
-* This model used the siamese neural network method that took in 2 inputs and ranked the similarity.
+* A basic CNN model performed better than transfer learning in this case.
 
 
 ### 😤 Where I Got Stuck
 
-* OpenCV opening the web camera does not work in Google Colab.  There is a snippet available on Google Colab that takes a single picture from the web camera, but I needed hundreds.  So I took a little detour and updated the code to work like OpenCV did in the tutorial.  I even wrote about it, check it out. [TIL How to Take Hundreds of Images Through Google Colab](https://dev.to/aishaevering/til-how-to-take-hundred-of-images-through-google-colab-3bbo)
+* Trying to use transfer learning with the EfficientNet Model and get acceptable results was futile 😢
 
 ### ☑️ Todos...
 
-* Deploy the model so it can easily verfiy faces.
+* Present my findings
+* Get MIT Applied Datascience Certificate
   
 ### 📖 Dataset
 
-* ~400 Anchor images taken with my webcam.  They are currently stored in my Google Drive.
-* ~400 Positive images taken with my webcam.  They are currently store in my Google Drive.
-* ~400 Negatvie images provided my tutorial, labled Faces in the Wild. 
+* I was given a zipfile with 15,109 training images, 128 testing images, and 4,977 validation images.  They are all located on my Google Drive.
   
 ## 🙏 Acknowledgments
 
-* [Nicholas Renotte]([https://github.com/matiassingers/awesome-readme](https://www.youtube.com/watch?v=bK_k7eebGgc&list=PLgNJO2hghbmhHuhURAGbe6KWpiYZt0AMH))
-* 📑 [Siamese Neural Network for One-shot Image Recognition]([https://gist.github.com/PurpleBooth/109311bb0361f32d87a2](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf))
+* [Me](https://aishaeportfolio.com/)  Good job me! 😄
 
