@@ -18,14 +18,14 @@ This project serves as an capstone endeavor undertaken to advance towards achiev
 
 ## 📃Description
 
-A multi-class classification model that attempts to detect sad/happy/suprised/nuetral emotions on different faces.
+A multi-class classification model that attempts to detect sad/happy/surprised/neutral emotions on different faces.
 
 ## 🏫 What Did I Learn
 
-* Retraining models used for transfer learning led to a lot better results.  I was getting great results from VGG16 doing that but due to time and contraints I removed the experiment.  But I will keep that little bit of knowledge here.
+* Retraining models used for transfer learning led to a lot better results.  I was getting great results from VGG16 doing that but due to time and constraints I removed the experiment.  But I will keep that little bit of knowledge here.
 * Transfer learning did not guarantee automatic awesome accuracies.
 * Grayscale vs RGB did not make a huge difference.
-* There's not a lot of EDA with the data for the CNN models but augementing and flipping the images yielded better accuracies.
+* There's not a lot of EDA with the data for the CNN models but augmenting and flipping the images yielded better accuracies.
 
 ## 🔑 Key Takeaways
 
@@ -39,11 +39,11 @@ A multi-class classification model that attempts to detect sad/happy/suprised/nu
 ### ☑️ Todos...
 
 * Present my findings
-* Get MIT Applied Datascience Certificate
+* Get MIT Applied Data Science Certificate
   
 ### 📖 Dataset
 
-* I was given a zipfile with 15,109 training images, 128 testing images, and 4,977 validation images.  They are all located on my Google Drive.
+* I was given a zip file with 15,109 training images, 128 testing images, and 4,977 validation images.  They are all located on my Google Drive.
   
 ## 🙏 Acknowledgments
 
