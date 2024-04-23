@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="https://github.com/AishaEvering/FaceVerification/blob/main/FaceVerification.png" alt="Face Verfication" width="600" height="300">
+   <img src="https://github.com/AishaEvering/FacialEmotionDetection/blob/main/emotion.png" alt="Emotion Detection">
 </p>
 
 # Face Verification (YouTube Tutorial) :youtube
