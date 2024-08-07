@@ -21,8 +21,6 @@ In this project, I aimed to develop a multi-class classification model to detect
 
 ## 🏫 Learning Outcomes
 
-1. **Impact of Transfer Learning**: Retraining 
-
 1. **Impact of Transfer Learning:** Retraining models for transfer learning significantly improved performance. Although I observed promising results using VGG16, time constraints led me to pause further experiments. Nevertheless, this experience reinforced the value of transfer learning in enhancing model accuracy.
 2. **No Guarantees with Transfer Learning:** Despite its advantages, transfer learning does not automatically ensure high accuracy. Each model and dataset require careful tuning and evaluation.
 3. **Grayscale vs RGB:** Using grayscale images versus RGB images did not result in substantial differences in model performance.
